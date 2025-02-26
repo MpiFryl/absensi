@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #e2e2e2, #ffc9c9);
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #bb3e03;
+  padding: 10px 30px;
+  color: white;
+  position: sticky;
+  width: 100%;
+}
+
+.navbar span {
+  font-weight: bold;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+  padding: 7px;
+}
+
+.navbar a:hover {
+  background-color: #a00000;
+  border-radius: 10px;
+}
+
+.navbar .start {
+  display: flex;
+  align-items: center;
+}
+
+.start form {
+  padding-right: 10px;
+}
+
+.start button {
+  padding: 5px;
+  border-radius: 15px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.start button:hover {
+  background-color: rgb(190, 10, 10);
+}
+
+.navbar .end {
+  display: flex;
+  align-items: center;
+}
+
+.navbar p {
+  margin-right: 10px;
+}
+
+/* Content */
+.jurusan ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
+  padding: 50px;
+}
+
+.jurusan a {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.jurusan .ak {
+  background-color: #d84f4f;
+}
+.jurusan .ak:hover {
+  background-color: #a84040;
+}
+
+.jurusan .fm {
+  background-color: #77a576;
+}
+.jurusan .fm:hover {
+  background-color: #5d7f5d;
+}
+
+.jurusan .pplg {
+  background-color: #55cbe2;
+}
+.jurusan .pplg:hover {
+  background-color: #45aabe;
+}
+
+.jurusan img {
+  max-width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+hr {
+  width: 80%;
+  justify-self: center;
+  display: flex;
+  background-color: black;
+  border: none;
+  height: 1.5px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
